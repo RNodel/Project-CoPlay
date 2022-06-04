@@ -1,0 +1,64 @@
+.points{
+    color:black;
+}
+
+#savee{
+    margin-left: 25vw;
+  }
+  
+  
+
+.plusBtn{
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.tasksMappedContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);;
+  gap: 0.5em;
+  height: 70vh;
+  width: 100vw;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 1200px){
+  .tasksMappedContainer{
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .tasksMappedContainer{
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 520px){
+  .tasksMappedContainer{
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+}
+
+.taskTitle{
+  font-family: Avenir-Black;
+  font-size: 5.5vh;
+  color: #000000;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom:0.4em;
+  background: rgba(220, 112, 112, 0.5);
+  margin-bottom: 0.1em;
+}
+
+.pointsHolder{
+  position: absolute;
+  bottom: 1em;
+  left: 1em; 
+}

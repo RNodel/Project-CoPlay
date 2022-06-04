@@ -1,0 +1,174 @@
+.screen{
+  display: grid;
+  grid-template-columns: repeat(1, 100vw);
+  height: 100vh;
+  width: 100vw;
+}
+
+.top{
+  height: 50vh;
+  position: relative;
+}
+
+.pinkBubble{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  background-color: #DC7070;
+  right: 10%;
+  bottom: 0.1%;
+}
+
+.blueBubble{
+  position: absolute;
+  width: 275px;
+  height: 275px;
+  border-radius: 100%;
+  background-color: #65B6D2;
+  bottom: 23%;
+  left: 38%;
+  text-align: center;
+  color: #000000;
+  font-size: 7vh;
+  line-height: 275px;
+  font-family: Avenir-Light;
+}
+
+.bottom{
+  margin:0 auto;
+}
+
+.signInForm{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 26vw);
+  grid-template-rows: repeat(6, 7vh);
+  row-gap: 0.5vh;
+}
+
+.userLabel{
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 1;
+  grid-row-end: span 1;
+
+  position: absolute;
+  bottom: 0;
+  opacity: 0.8;
+  font-family: Avenir-Light;
+  font-size: 3vh;
+  color: #000000;
+}
+
+.name {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 2;
+  grid-row-end: span 1;
+
+  border: 1px solid #000000;
+  border-radius: 9px;
+  width: 78vw;
+  height: 7vh;
+}
+
+.passwordLabel{
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 3;
+  grid-row-end: span 1;
+
+  position: absolute;
+  bottom: 0;
+  opacity: 0.8;
+  font-family: Avenir-Light;
+  font-size: 3vh;
+  color: #000000;
+}
+
+.password {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  grid-row-start: 4;
+  grid-row-end: span 1;
+
+  border: 1px solid #000000;
+  border-radius: 9px;
+  width: 78vw;
+  height: 7vh;
+}
+
+.submitLogin {
+  grid-column-start: 1;
+  grid-column-end: span 3;
+  grid-row-start: 5;
+  grid-row-end: span 1;
+
+  font-family: Avenir-Light;
+  background: #A7E59D;
+  border-radius: 4px;
+  font-size: 3vh;
+  width: 78vw;
+  height: 7vh;
+  margin-top: 3.5vh;
+}
+
+.signUp{
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: 6;
+  grid-row-end: span 1;
+
+  position: absolute;
+  bottom: 0;
+  font-family: Avenir-Light;
+  text-decoration:underline;
+  display:inline-block;
+  right: 0;
+}
+
+.signUp:hover{
+  color: gray;
+  cursor: pointer;
+}
+
+.App{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.App3{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.link:hover{
+  text-decoration: underline;
+  color: #648AD1;
+  cursor: pointer;
+}
+
+#NavButton{
+  position: absolute;
+  justify-content: space-between;
+}
+
+#GroupOut{
+  margin-left: 0;
+}
+
+#LogOut{
+  margin-right: 0;
+
+}
+
+#dock{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: rgba(220, 112, 112, 0.5)
+}

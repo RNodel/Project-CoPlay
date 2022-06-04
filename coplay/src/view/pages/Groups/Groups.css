@@ -1,0 +1,73 @@
+.groupPageTitle{
+    font-family: Avenir-Black;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 1.2em; 
+    color: #000000;
+}
+
+.groupButtons{ 
+    display: flex;
+    justify-content: space-around; 
+    margin: 2em; 
+}
+
+.groupContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5em;
+}
+
+@media only screen and (max-width: 1200px){
+    .groupContainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .groupContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .groupContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+.twoCircles{
+    float: right;
+    margin-right: 1em; 
+    width: 40px;
+    cursor: pointer;
+}
+
+.join_div{
+    color:black;
+    background:rgba(240, 66, 66, 0.6);
+    border-radius: 22.5px;
+    font-family: Avenir-Book;
+    font-size: 3vh;
+    height: 8vh;
+    width: 7em;
+    text-align: center;
+    line-height: 8vh;
+    cursor: pointer;
+    
+}
+
+.create_div{
+    background: #A7E59D;
+    border-radius: 22.5px;
+    font-family: Avenir-Book;
+    font-size: 3vh;
+    color: #000000;
+    height: 8vh;
+    width: 7em;
+    text-align: center;
+    line-height: 8vh;
+    cursor:pointer;
+    
+}

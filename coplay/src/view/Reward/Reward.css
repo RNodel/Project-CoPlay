@@ -1,0 +1,35 @@
+.reward{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em;
+    font-family: Avenir-Light;
+    color: black; 
+    font-size:3.5vh;
+    padding-bottom:0.5em;
+    border-bottom: 1px solid #979797;
+}
+
+ 
+.box{
+    border: 1px solid #979797;
+    border-radius: 6px;
+     
+    color: #8C8787;
+    text-align: center;
+     
+    height: 1em; 
+}
+
+.rewardBig{ 
+    margin-top:0.1em;
+    float:left;
+}
+
+.rewardSmall{ 
+    float:right;
+}
+
+.star{
+    height: 2em;
+}
+ 

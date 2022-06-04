@@ -1,0 +1,19 @@
+.leaderBoardTitle{
+    font-family: Avenir-Black;
+    font-size: 5.5vh;
+    color: #000000;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+    background: rgba(220, 112, 112, 0.5)
+}
+
+.logouttest{
+
+    position: fixed;
+    margin-left: 90vw;
+    top: 0.3vw;
+   
+
+
+}

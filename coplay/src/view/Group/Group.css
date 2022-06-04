@@ -1,0 +1,34 @@
+.groupName{
+    background: #dca16294;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    justify-content: space-between;
+    margin:1em;
+    cursor: pointer;
+}
+
+.right_box{
+    width: 80px;
+    background: #dca162;
+    border-radius: 0px 15px 15px 0pc;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.left_box{
+    padding: 20px;
+    font-family: Avenir-Book;
+    font-size: 3.5vh;
+}
+ 
+.rightarrow{
+    height: 3.5vh;
+    justify-content: center;
+}
+
+
+h5{
+    font-size: 0.5vh;
+}
